@@ -4,6 +4,7 @@ import { blogPlugin } from "vuepress-plugin-blog2";
 import { allLeetcodeSidebar } from "./sidebar";
 
 export default defineUserConfig({
+  base: "/leetcode/",
   lang: "zh-CN",
   title: "leetcode-book",
   description: "Just playing around",
