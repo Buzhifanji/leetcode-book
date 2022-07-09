@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>leetcode-book</title><meta name="description" content="Just playing around">
+    <link rel="modulepreload" href="/leetcode/assets/app.5142de02.js"><link rel="modulepreload" href="/leetcode/assets/404.html.c6569f8c.js"><link rel="modulepreload" href="/leetcode/assets/404.html.265028f6.js"><link rel="prefetch" href="/leetcode/assets/index.html.33250bab.js"><link rel="prefetch" href="/leetcode/assets/1.two-sum.html.b8e26893.js"><link rel="prefetch" href="/leetcode/assets/2.add-two-numbers.html.9286c351.js"><link rel="prefetch" href="/leetcode/assets/index.html.a61bf3e6.js"><link rel="prefetch" href="/leetcode/assets/1.two-sum.html.bd202fb3.js"><link rel="prefetch" href="/leetcode/assets/2.add-two-numbers.html.157ba6c9.js"><link rel="prefetch" href="/leetcode/assets/404.42c60be7.js"><link rel="prefetch" href="/leetcode/assets/Layout.26fda284.js">
+    <link rel="stylesheet" href="/leetcode/assets/style.9b6e466f.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/leetcode/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/leetcode/assets/app.5142de02.js" defer></script>
+  </body>
+</html>

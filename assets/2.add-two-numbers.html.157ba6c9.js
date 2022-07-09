@@ -1,0 +1,1 @@
+import{_ as t,o,c as _,a as e}from"./app.5142de02.js";const s={},n=e("p",null,"add-two-numbers",-1),a=e("p",null,"\u5F97\u5230dd",-1),c=[n,a];function d(r,l){return o(),_("div",null,c)}var m=t(s,[["render",d],["__file","2.add-two-numbers.html.vue"]]);export{m as default};

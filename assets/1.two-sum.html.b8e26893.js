@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ccbe8a66","path":"/leetcode/1.two-sum.html","title":"two-sum","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1657357408000,"contributors":[{"name":"huangbin","email":"1127779503@qq.com","commits":1}]},"filePathRelative":"leetcode/1.two-sum.md"}');export{e as data};
