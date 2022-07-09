@@ -9,16 +9,12 @@ npm run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:Buzhifanji/leetcode-book.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://buzhifanji:${GITHUB_TOKEN}@github.com/Buzhifanji/leetcode-book.git
-  git config --global user.name "buzhifanji"
-  git config --global user.email "buzhifanji@163.com"
-  git config --global init.defaultBranch "main"
-fi
+msg='来自github actions的自动部署'
+githubUrl=https://buzhifanji:${GITHUB_TOKEN}@github.com/Buzhifanji/leetcode-book.git
+git config --global user.name "buzhifanji"
+git config --global user.email "buzhifanji@163.com"
+git config --global init.defaultBranch "main"
+
 git init
 git add -A
 git commit -m "${msg}"
