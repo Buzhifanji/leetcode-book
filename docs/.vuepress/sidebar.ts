@@ -1,7 +1,8 @@
 import { SidebarItem } from "@vuepress/theme-default";
 import fs from "fs";
+import { sidebar } from "vuepress-theme-hope";
 
-export function readFileNames(path: string): SidebarItem[] {
+function readFileNames(path: string): SidebarItem[] {
   const result: SidebarItem[] = [];
   try {
     const files = fs.readdirSync(`./docs/${path}`);
@@ -16,3 +17,11 @@ export function readFileNames(path: string): SidebarItem[] {
   }
   return result;
 }
+
+export default sidebar([
+  {
+    text: "数组",
+    icon: "note",
+    children: readFileNames("array"),
+  },
+]);

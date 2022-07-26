@@ -1,31 +1,19 @@
 ---
 home: true
-modules:
-  - MdContent
-  - Blog
-  - Footer
-# bannerBrand:
-#   heroImage: /logo.png
-#   heroImageStyle:
-#     maxWidth: '200px'
-#     width: '100%'
-#     display: block
-#     margin: '0 auto 2rem'
-#     borderRadius: '1rem'
-#   bgImage: '/bg.svg'
-#   heroText: vuepress-reco
-#   tagline: 一款 vuepress 主题容器，集成多种主题底层功能，快速生成主题风格。主题 2.0 的默认风格是原主题 1.0 迁移而来，更多风格正在路上，敬请期待。
-#   buttons:
-#     - { text: 指南, link: '/docs/guide/introduce' }
-#     - { text: 主题配置, link: '/docs/theme/introduce', type: 'plain' }
-# isShowTitleInHome: true
-# actionText: About
-# actionLink: /views/other/about
-# features:
-# - title: 过去
-#   details: 开发一款看着开心、写着顺手的 vuepress 博客主题。
-# - title: 当下
-#   details: 帮助更多的朋友节省时间去用心书写内容，而不是仅仅配置一个博客去孤芳自赏。
-# - title: 未来
-#   details: 吸引更多的朋友参与到开发中来，继续强大功能。
+layout: Blog
+icon: home
+# hero: false
+# title: 博客主页
+bgImage: false
+heroImage: /logo.svg
+# heroText: 你博客的名称
+# heroFullScreen: true
+# tagline: 你可以在这里放置你的口号与标语
+# projects:
+#   - icon: project
+#     name: 项目名称
+#     desc: 项目详细描述
+#     link: https://你的项目链接
+
+# footer: Copyright © 2022-present Buzhifanji
 ---
