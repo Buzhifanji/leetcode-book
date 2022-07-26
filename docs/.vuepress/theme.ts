@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/Buzhifanji",
+  repo: "https://github.com/Buzhifanji/leetcode-book",
 
   docsDir: "demo/src",
 

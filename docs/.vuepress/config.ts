@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: "leetcode-book",
   description: "刷leetcode记",
   theme,
-  base: "/",
+  base: "/leetcode-book/",
   plugins: [
     searchPlugin({
       // 你的选项
