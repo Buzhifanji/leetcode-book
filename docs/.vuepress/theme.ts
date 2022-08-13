@@ -39,7 +39,7 @@ export default hopeTheme({
 
   blog: {
     description: "一个前端开发者",
-    intro: "/intro.html",
+    intro: "",
     medias: {
       // Baidu: "https://example.com",
       // Bitbucket: "https://example.com",
