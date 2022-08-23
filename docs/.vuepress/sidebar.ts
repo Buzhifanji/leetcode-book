@@ -12,6 +12,10 @@ function readFileNames(path: string): SidebarItem[] {
         text: file.replace(".md", ""),
       });
     });
+    result.sort((a, b) => {
+      const getIndex = (value: string) => +value.split(".")[0];
+      return getIndex(a.text) > getIndex(b.text) ? 1 : -1;
+    });
   } catch (err) {
     console.log("读取文件错误：", err.message);
   }
