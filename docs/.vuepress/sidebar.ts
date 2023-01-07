@@ -28,4 +28,9 @@ export default sidebar([
     icon: "note",
     children: readFileNames("array"),
   },
+  {
+    text: "二分查找",
+    icon: "note",
+    children: readFileNames("binary-search"),
+  },
 ]);
