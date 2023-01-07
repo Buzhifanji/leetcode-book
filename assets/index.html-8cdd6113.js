@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9904a07c","path":"/tag/%E6%95%B0%E5%AD%A6/","title":"数学 标签","lang":"zh-CN","frontmatter":{"title":"数学 标签","blog":{"type":"category","name":"数学","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};

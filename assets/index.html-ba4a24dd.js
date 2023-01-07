@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-11d405d3","path":"/tag/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/","title":"二分查找 标签","lang":"zh-CN","frontmatter":{"title":"二分查找 标签","blog":{"type":"category","name":"二分查找","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};
