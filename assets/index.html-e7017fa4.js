@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5dc90e18","path":"/binary-search/","title":"Binary Search","lang":"zh-CN","frontmatter":{"title":"Binary Search"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":""}');export{e as data};
